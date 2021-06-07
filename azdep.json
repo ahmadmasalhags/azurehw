@@ -10,7 +10,6 @@
         },
         "adminPassword": {
             "type": "securestring",
-            "minLength": 12,
             "metadata": {
                 "description": "Password for the Virtual Machine."
             }
@@ -103,8 +102,8 @@
     },
     "functions": [],
     "variables": {
-        "storageName": "[concat(parameters('storageName'), uniqueString(resourceGroup().id, copyIndex('storageCopy')))]",
-        "containerNames": "[concat(variables('storageName'), '/default/container')]",
+        "storageName": "[concat(parameters('storageName'), uniqueString(resourceGroup().id))]",
+        "mainStorage": "[concat(parameters('storageName'), uniqueString(resourceGroup().id), '1')]",
         "nicName": "myVMNic",
         "addressPrefix": "10.0.0.0/16",
         "subnetName": "Subnet",
@@ -116,7 +115,7 @@
     "resources": [
         {
             "type": "Microsoft.Storage/storageAccounts",
-            "name": "[variables('storageName')]",
+            "name": "[concat(variables('storageName'), copyIndex(1))]",
             "copy": {
                 "name": "storageCopy",
                 "count": 2
@@ -135,9 +134,13 @@
         {
             "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
             "apiVersion": "2019-06-01",
-            "name": "[variables('containerNames')]",
+            "name": "[concat(variables('storageName'), copyIndex(1), '/default/container')]",
+            "copy":{
+                "name": "containerCopy",
+                "count": 2
+            },
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', concat(variables('storageName'), copyIndex(1)))]"
             ]
         },
         {
@@ -237,7 +240,7 @@
             "name": "[parameters('vmName')]",
             "location": "[parameters('location')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('mainStorage'))]",
                 "[resourceId('Microsoft.Network/networkInterfaces', variables('nicName'))]"
             ],
             "properties": {
@@ -280,7 +283,7 @@
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[reference(resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))).primaryEndpoints.blob]"
+                        "storageUri": "[reference(resourceId('Microsoft.Storage/storageAccounts', variables('mainStorage'))).primaryEndpoints.blob]"
                     }
                 }
             }

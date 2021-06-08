@@ -1,0 +1,12 @@
+{
+  "blobsCount": 100,
+  "blobsFolder": "blobs",
+  "storage1": {
+    "connectionString": "DefaultEndpointsProtocol=https;AccountName=asm17s6cfjotqmetao1;AccountKey=90VyasEOWxdReGCjKAXsG20O7/FBDpO199ljdFCVtttA2zzCQDfNhxVBFcbsJG1t9DDxquc2aUkz2FEyYcaq8w==;EndpointSuffix=core.windows.net",
+    "containerName": "container"
+  },
+  "storage2": {
+    "connectionString": "DefaultEndpointsProtocol=https;AccountName=asm17s6cfjotqmetao2;AccountKey=ODugnehGxyrqxThJjMFGi+l2sKK6wZO4Seu1akwzINNajY8ooqPVk9atn5mrp/sq2r5ltR0eqjUcxf5bNh8wqw==;EndpointSuffix=core.windows.net",
+    "containerName": "container"
+  }
+}

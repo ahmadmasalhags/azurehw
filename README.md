@@ -68,7 +68,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
   ```sh
   Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe" -OutFile "<your_full_path>/python-3.7.0.exe"
   ```
-  * add Python to PATH
+  * add Python to PATH, then:
   ```sh
   python -m pip install --upgrade pip
   pip install azure

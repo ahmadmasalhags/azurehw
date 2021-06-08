@@ -81,14 +81,15 @@ Ahmad Masalha, B.Sc. Software Engineering.
   data-theme='dark'
   data-vanity='manavoza7'
 ><a class='LI-simple-link' href='https://www.linkedin.com/in/ahmadmasalha/'>Ahmad Masalha on LinkedIn</a></div>
-
-[]()
-
+<script
+  type='text/javascript'
+  src='https://platform.linkedin.com/badges/js/profile.js'
+  async
+  defer
+></script>
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
-* 
+* Gur Rosenberg, Microsoft Israel
+* Oron Golan, Microsoft Israel

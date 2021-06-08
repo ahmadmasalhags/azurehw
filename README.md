@@ -72,21 +72,7 @@ Ahmad Masalha, B.Sc. Software Engineering.
 
 [ahmadmasgs@gmail.com]
 
-<div
-  class='LI-profile-badge'
-  data-version='v1'
-  data-size='medium'
-  data-locale='en_US'
-  data-type='horizontal'
-  data-theme='dark'
-  data-vanity='manavoza7'
-><a class='LI-simple-link' href='https://www.linkedin.com/in/ahmadmasalha/'>Ahmad Masalha on LinkedIn</a></div>
-<script
-  type='text/javascript'
-  src='https://platform.linkedin.com/badges/js/profile.js'
-  async
-  defer
-></script>
+[Ahmad Masalha on LinkedIn](https://www.linkedin.com/in/ahmadmasalha/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements

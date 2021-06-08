@@ -25,7 +25,19 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## Content
+* _first_version_: folder containing the first scripts I wrote for debugging and getting to know the API
+* _azdeploy.json_: ARM template to deploy the following resource:
+  * Storage Account _X2_
+      * BLOB Container per storage account
+   * One _Windows_ VM, with all its requisites:
+      * Network security group
+      * Public IP address
+      * Network interface
+      * Virtual network
+      * Disk _X2_
+* _azdeploy.parameters.json_: parameters for the deployment
+* _deployer.ps1_: a powershell script to excute the deployment. Please check out its usage [below](#Usage).
 
 
 ### Built With

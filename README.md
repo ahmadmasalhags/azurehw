@@ -74,10 +74,6 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
   pip install azure
   pip install azure-storage-blob --upgrade
   ```
-  * Then to excute the _blobsHandler.py_ simply run from command line:
-  ```she
-  python blobHandler.py
-  ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -101,6 +97,11 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
     * Virtual network
     * Disk _X2_
 
+### On VM
+  * To excute the _blobsHandler.py_ simply run from command line:
+  ```she
+  python blobHandler.py
+  ```
 
 <!-- CONTACT -->
 ## Contact

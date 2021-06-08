@@ -29,15 +29,15 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 ## About The Project
 
 ## Content
-* _first_version_: folder containing the first scripts I wrote for debugging and getting to know the API
-* _BLOBs_: folder containing scripts for the BLOBs part of the HW:
-  * _blobHandler.py_: a Python 3 script which creates, uploads, and copies a number of BLOBs between storage accounts.
-  * _parameters.json_: a JSON specifiying the paramters needed for running the aforementioned _blobHandler.py_ script.
-  * _blobber.ps1_: a Powershell script to create a number of text BLOBs, invoked by the _blobHandler.py_ script.
+* [_first_version_](https://github.com/ahmadmasalhags/azurehw/tree/main/first_version): folder containing the first scripts I wrote for debugging and getting to know the API
+* [_BLOBs_](https://github.com/ahmadmasalhags/azurehw/tree/main/BLOBs): folder containing scripts for the BLOBs part of the HW:
+  * [_blobHandler.py_](https://github.com/ahmadmasalhags/azurehw/blob/main/BLOBs/blobHandler.py): a Python 3 script which creates, uploads, and copies a number of BLOBs between storage accounts.
+  * [_parameters.json_](https://github.com/ahmadmasalhags/azurehw/blob/main/BLOBs/parameters.json): a JSON specifiying the paramters needed for running the aforementioned _blobHandler.py_ script.
+  * [_blobber.ps1_](https://github.com/ahmadmasalhags/azurehw/blob/main/BLOBs/blobber.ps1): a Powershell script to create a number of text BLOBs, invoked by the _blobHandler.py_ script.
   
   These 3 files _MUST_ remain in the same directory, on the same level, to excute correctly.
   
-* _azdeploy.json_: ARM template to deploy the following resources:
+* [_azdeploy.json_](https://github.com/ahmadmasalhags/azurehw/blob/main/azdeploy.json): ARM template to deploy the following resources:
   * Storage Account _X2_
       * BLOB Container per storage account
    * One _Windows_ VM, with all its requisites:
@@ -46,8 +46,8 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
       * Network interface
       * Virtual network
       * Disk _X2_
-* _azdeploy.parameters.json_: parameters for the deployment.
-* _deployer.ps1_: a powershell script to excute the deployment. Please check out its usage [below](#Usage).
+* [_azdeploy.parameters.json_](https://github.com/ahmadmasalhags/azurehw/blob/main/azdeploy.parameters.json): parameters for the deployment.
+* [_deployer.ps1_](https://github.com/ahmadmasalhags/azurehw/blob/main/deployer.ps1): a powershell script to excute the deployment. Please check out its usage [below](#Usage).
 
 
 ### Built With
@@ -108,7 +108,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 ### On VM
   * To excute the _blobHandler.py_ simply run from command line:
   ```she
-  python blobHandler.py
+  python [blobHandler.py](https://github.com/ahmadmasalhags/azurehw/blob/main/BLOBs/blobHandler.py)
   ```
 
 <!-- CONTACT -->

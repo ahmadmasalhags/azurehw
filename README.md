@@ -88,6 +88,10 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
   ```sh
   >powershell -file deployer.ps1 -resourceGroup X -location Y -admin Z -password W
   ```
+  * From Powershell:
+  ```sh
+  PS $> .\deployer.ps1 -resourceGroupName X -location Y -admin Z -password W
+  ```
 
 * First, the script will excute ```Connect-AzAccount``` to connect to your Azure Account.
 * Then, it will create a new resource group with the desired name.

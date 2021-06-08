@@ -11,6 +11,9 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#Content">Content</a></li>
+      </ul>
+      <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>

@@ -72,6 +72,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
   ```sh
   python -m pip install --upgrade pip
   pip install azure
+  pip install azure-storage-blob --upgrade
   ```
   
 

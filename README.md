@@ -30,14 +30,14 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 
 ## Content
 * _first_version_: folder containing the first scripts I wrote for debugging and getting to know the API
-* _BLOBS_: folder containing scripts for he BLOBs part of the HW:
-  * _blobHandler.py_: a Python 3 script which creates, upload and copies a number of BLOBs between storage accounts.
-  * _parameters.json_: a JSON specifiying the paramters needed for running the afrementioned _blobHandler.py_ script.
+* _BLOBs_: folder containing scripts for the BLOBs part of the HW:
+  * _blobHandler.py_: a Python 3 script which creates, uploads, and copies a number of BLOBs between storage accounts.
+  * _parameters.json_: a JSON specifiying the paramters needed for running the aforementioned _blobHandler.py_ script.
   * _blobber.ps1_: a Powershell script to create a number of text BLOBs, invoked by the _blobHandler.py_ script.
   
-  These 3 files _MUST_ remain in the same directory, in the same level, to excute correctly.
+  These 3 files _MUST_ remain in the same directory, on the same level, to excute correctly.
   
-* _azdeploy.json_: ARM template to deploy the following resource:
+* _azdeploy.json_: ARM template to deploy the following resources:
   * Storage Account _X2_
       * BLOB Container per storage account
    * One _Windows_ VM, with all its requisites:
@@ -46,7 +46,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
       * Network interface
       * Virtual network
       * Disk _X2_
-* _azdeploy.parameters.json_: parameters for the deployment
+* _azdeploy.parameters.json_: parameters for the deployment.
 * _deployer.ps1_: a powershell script to excute the deployment. Please check out its usage [below](#Usage).
 
 
@@ -98,7 +98,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
     * Disk _X2_
 
 ### On VM
-  * To excute the _blobsHandler.py_ simply run from command line:
+  * To excute the _blobHandler.py_ simply run from command line:
   ```she
   python blobHandler.py
   ```

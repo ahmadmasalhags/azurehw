@@ -35,7 +35,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
   * _parameters.json_: a JSON specifiying the paramters needed for running the afrementioned _blobHandler.py_ script.
   * _blobber.ps1_: a Powershell script to create a number of text BLOBs, invoked by the _blobHandler.py_ script.
   
-  These 3 file _MUST_ remain in the same directory, in the same level, to excute correctly.
+  These 3 files _MUST_ remain in the same directory, in the same level, to excute correctly.
   
 * _azdeploy.json_: ARM template to deploy the following resource:
   * Storage Account _X2_

@@ -79,11 +79,15 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 ## Usage
 
 * Run _deployer.ps1_ script to create a new resource group and deploy the template _azdeploy.json_ to your Azure subscription.
-* _deployer.ps1_ requires the following 4 arguments, explicitly:
-  * -resourceGroupName <string: the desired name for your new resource group>
-  * -location <string: location of your resource group>
-  * -admin <string: admin username for the group's VM>
-  * -password <string: password to your VM>
+  * _deployer.ps1_ requires the following 4 arguments, explicitly:
+    * -resourceGroupName <string: the desired name for your new resource group>
+    * -location <string: location of your resource group>
+    * -admin <string: admin username for the group's VM>
+    * -password <string: password to your VM>
+  * From command line:
+  ```sh
+  >powershell -file deployer.ps1 -resourceGroup X -location Y -admin Z -password W
+  ```
 
 * First, the script will excute ```Connect-AzAccount``` to connect to your Azure Account.
 * Then, it will create a new resource group with the desired name.

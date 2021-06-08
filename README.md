@@ -72,7 +72,7 @@ Ahmad Masalha, B.Sc. Software Engineering.
 
 [ahmadmasgs@gmail.com]
 
-`https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white`[LinkedIn](https://www.linkedin.com/in/ahmadmasalha/)
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">[Ahmad Masalha on LinkedIn](https://www.linkedin.com/in/ahmadmasalha/)
 
 
 <!-- ACKNOWLEDGEMENTS -->

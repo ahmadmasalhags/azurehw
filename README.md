@@ -63,11 +63,17 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
   ```sh
   Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
   ```
+#### On VM:
 * Python, using powershell
   ```sh
   Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe" -OutFile "<your_full_path>/python-3.7.0.exe"
   ```
   * add Python to PATH
+  ```sh
+  python -m pip install --upgrade pip
+  pip install azure
+  ```
+  
 
 <!-- USAGE EXAMPLES -->
 ## Usage

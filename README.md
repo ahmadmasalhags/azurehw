@@ -1,7 +1,7 @@
 # azurehw
 
 This repo was created for my Microsoft Candidate Homework. Thank you for this oppurtunity!
-In this HW, I greatly expanded my knowledge and experience with Azure, its template, environment, and API(s).
+In this HW, I greatly expanded my knowledge and experience with Azure, its templates, environment, and API(s).
 
 
 <!-- TABLE OF CONTENTS -->
@@ -68,10 +68,9 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
+Ahmad Masalha, B.Sc. Software Engineering.
+[ahmadmasgs@gmail.com]
+[LinkedIn](https://www.linkedin.com/in/ahmadmasalha/)(https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
 
 <!-- ACKNOWLEDGEMENTS -->

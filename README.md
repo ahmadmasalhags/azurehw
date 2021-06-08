@@ -54,7 +54,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 
 * First, the script will excute ```Connect-AzAccount``` to connect to your Azure Account.
 * Then, it will create a new resource group with the desired name.
-* On Success, the scipt will deploy the followig resource:
+* On Success, the script will have deployed the followig resources:
   * Storage Account _X2_
     * BLOB Container per storage account
   * One _Windows_ VM, with all its requisites:

@@ -69,9 +69,10 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 ## Contact
 
 Ahmad Masalha, B.Sc. Software Engineering.
+
 [ahmadmasgs@gmail.com]
 
-[LinkedIn](https://www.linkedin.com/in/ahmadmasalha/)[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white]
+`https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white`[LinkedIn](https://www.linkedin.com/in/ahmadmasalha/)
 
 
 <!-- ACKNOWLEDGEMENTS -->

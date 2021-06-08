@@ -5,7 +5,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 
 
 <!-- TABLE OF CONTENTS -->
-<summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+<h2 style="display: inline-block">Table of Contents</h2>
 <details open="open">
   <ol>
     <li>

@@ -78,7 +78,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-* Run _deployer.ps1_ script to create a new resource group and deploy the template _azdeploy.json_ to your Azure subscription.
+* Run [_deployer.ps1_](https://github.com/ahmadmasalhags/azurehw/blob/main/deployer.ps1) script to create a new resource group and deploy the template _azdeploy.json_ to your Azure subscription.
   * _deployer.ps1_ requires the following 4 arguments, explicitly:
     * -resourceGroupName <string: the desired name for your new resource group>
     * -location <string: location of your resource group>
@@ -93,7 +93,7 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
   PS $> .\deployer.ps1 -resourceGroupName X -location Y -admin Z -password W
   ```
 
-* First, the script will excute ```Connect-AzAccount``` to connect to your Azure Account.
+* First, the script will excute ```Connect-AzAccount```[?](https://docs.microsoft.com/en-us/powershell/module/az.accounts/connect-azaccount?view=azps-6.0.0) to connect to your Azure Account.
 * Then, it will create a new resource group with the desired name.
 * On Success, the script will have deployed the followig resources:
   * Storage Account _X2_
@@ -106,9 +106,9 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
     * Disk _X2_
 
 ### On VM
-  * To excute the _blobHandler.py_ simply run from command line:
+  * To excute the [_blobHandler.py_](https://github.com/ahmadmasalhags/azurehw/blob/main/BLOBs/blobHandler.py) simply run from command line:
   ```she
-  python [blobHandler.py](https://github.com/ahmadmasalhags/azurehw/blob/main/BLOBs/blobHandler.py)
+  python blobHandler.py
   ```
 
 <!-- CONTACT -->

@@ -30,6 +30,8 @@ In this HW, I greatly expanded my knowledge and experience with Azure, its templ
 
 ## Content
 * [_first_version_](https://github.com/ahmadmasalhags/azurehw/tree/main/first_version): folder containing the first scripts I wrote for debugging and getting to know the API
+* [_1st_submission_](https://github.com/ahmadmasalhags/azurehw/tree/main/1st_submission): folder containing the scripts of the first submission
+* [_2nd_submission_](https://github.com/ahmadmasalhags/azurehw/tree/main/2nd_submission): folder containing the scripts updated for the second submission
 * [_BLOBs_](https://github.com/ahmadmasalhags/azurehw/tree/main/BLOBs): folder containing scripts for the BLOBs part of the HW:
   * [_blobHandler.py_](https://github.com/ahmadmasalhags/azurehw/blob/main/BLOBs/blobHandler.py): a Python 3 script which creates, uploads, and copies a number of BLOBs between storage accounts.
   * [_parameters.json_](https://github.com/ahmadmasalhags/azurehw/blob/main/BLOBs/parameters.json): a JSON specifiying the paramters needed for running the aforementioned _blobHandler.py_ script.

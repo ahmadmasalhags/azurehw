@@ -1,20 +1,24 @@
 param([ValidateNotNullOrEmpty()][string] $resourceGroupName,
-      [ValidateNotNullOrEmpty()][string] $location,
-      [ValidateNotNullOrEmpty()][string] $admin,
-      [ValidateNotNullOrEmpty()][string] $password)
+      [ValidateNotNullOrEmpty()][string] $location)
 
-if ($PSBoundParameters.Count -ne 4){
-    Write-Error "Please explicitly pass the following 4 parameters:
-    -resourceGroupName <string> -location <string> -admin <string> -password <string>
+if ($PSBoundParameters.Count -ne 2){
+    Write-Error "Please explicitly pass the following 2 parameters:
+    -resourceGroupName <string> -location <string>
     "
     exit
 }
 
 Connect-AzAccount
 
-New-AzResourceGroup -Name $resourceGroupName -Location $location
+try {
+    [ValidateNotNullOrEmpty()][string]$admin = Read-Host "Choose a Username for your VM" 
+    [ValidateNotNullOrEmpty()][string]$spswrd = Read-Host "Choose a Password for your VM" -AsSecureString
+} catch {
+    Write-Error -Message "Invalid Username or password - Please enter valid credentials"
+    exit 255
+}
 
-$spswrd = ConvertTo-SecureString $password -AsPlainText -Force
+New-AzResourceGroup -Name $resourceGroupName -Location $location
 
 $Deployment = @{
     Name                  = 'AhmadMasDeployer';
